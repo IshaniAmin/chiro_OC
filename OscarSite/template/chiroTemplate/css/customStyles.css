@@ -1,0 +1,82 @@
+/*custom css*/
+
+/*ALL FILES*/
+.fixedNav {
+	background-color: #C7F1EE;
+	border: none;
+}
+
+.navRight {
+	float: right;
+	padding: .75%;
+	margin-right: 3%;
+	font-size: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+.container-fluid {
+	padding-left: 0%;
+}
+
+.homeNav {
+	margin-top: 3.5%;
+	border: none;
+	background-color: white;
+}
+
+#logoBlock {
+	width: 30%;
+	background-color: #96E2BB;
+	padding: 0%;
+}
+
+#customLogo {
+	color: black;
+	margin-top: 0%;
+	padding: 4%;
+	padding-top: 6%;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 40px;
+}
+
+a {
+	padding-top: 6%;
+	font-size: 18px;
+}
+
+.jumbotron {
+	min-height: 700px;
+	background-color: #C9F4DF;
+	padding-top: 0%;
+	/*margin-top: 0%;*/
+}
+
+#jumboHeader {
+	font-size: 35px;
+}
+
+#slider-caption {
+	margin-top: 0%;
+	padding-top: 0%;
+}
+
+.footer {
+	background-color: #C7F1EE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
