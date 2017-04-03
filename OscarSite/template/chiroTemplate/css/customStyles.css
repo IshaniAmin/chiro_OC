@@ -2,7 +2,9 @@
 
 /*ALL FILES*/
 .fixedNav {
-	background-color: #C7F1EE;
+	/*background-color: #C7F1EE;*/
+	background-color: #B15E3D;
+	color: white;
 	border: none;
 }
 
@@ -11,6 +13,10 @@
 	padding: .75%;
 	margin-right: 3%;
 	font-size: 20px;
+}
+
+#customPhone {
+	color: white;
 }
 
 ul {
@@ -29,7 +35,8 @@ ul {
 
 #logoBlock {
 	width: 30%;
-	background-color: #96E2BB;
+	/*background-color: #96E2BB;*/
+	background-color: #5AA0AD;
 	padding: 0%;
 }
 
@@ -39,13 +46,14 @@ ul {
 	padding: 4%;
 	padding-top: 6%;
 	text-align: center;
-	font-family: Poppins;
+	font-family: Michroma;
 	font-size: 40px;
 }
 
 a {
 	padding-top: 6%;
-	font-size: 18px;
+	font-size: 21px;
+	font-family: Poppins;
 }
 
 .jumbotron {
@@ -59,17 +67,23 @@ a {
 	font-size: 35px;
 }
 
-#slider-caption {
+.slider-caption {
 	margin-top: 0%;
 	padding-top: 0%;
+	background-color: #CDA34F;
+}
+
+#customVid {
+	
 }
 
 .footer {
 	background-color: #C7F1EE;
 }
 
-
-
+/*alternative fonts for logo*/
+/*cherry cream soda*/
+/*Dorsa*/
 
 
 
