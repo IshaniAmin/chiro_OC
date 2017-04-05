@@ -1,0 +1,33 @@
+
+* {
+	box-sizing: border-box;
+}
+
+#secondNav {
+	margin-top: 50px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 60px;
+}
+
+#doctorLogo {
+	width: 100%;
+	z-index: 98;
+	position: relative;
+}
+
+#menuButton {
+	/*background-color: purple;*/
+	z-index: 99;
+	color:white; 
+	font-size:1.5em; 
+	margin-top:5px; 
+	margin:10 auto;
+}
+
+@media only screen and (max-width:1070px) {
+	.navbar-nav > li > a {
+		padding-top: 20px;
+	}
+}

@@ -13,6 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		 <!-- Custom Theme files -->
 		<link href="css/style.css" rel='stylesheet' type='text/css' />
 		<link href="css/customStyles.css" rel='stylesheet' type='text/css' />
+		<link href="css/header.css" rel='stylesheet' type='text/css' />
    		 <!-- Custom Theme files -->
    		 <meta name="viewport" content="width=device-width, initial-scale=1">
 		 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -21,26 +22,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    		  <!-- webfonts -->
 	</head>
 	<body>
-	<nav class="navbar navbar-fixed-top fixedNav">
+	<nav id="topNav" class="navbar navbar-fixed-top fixedNav">
 			<ul>
 				<li class="navRight"> CALL US: <a href="tel:" title="Chiropractic Telephone Number" id="customPhone">714-313-5558</a></li>
 			</ul>
 	</nav>
-	<nav class="navbar navbar-default homeNav">
-	  	<div class="container-fluid">
+
+	<nav id="secondNav" class="navbar navbar-default">
+	  	<div id="doctorLogo" class="container-fluid">
+	  		<button id="menuButton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
 		    <div class="navbar-header" id="logoBlock">
 				<h3 id="customLogo">Dr. Oscar Castro</h3>
 			</div>
-				<div class="top-nav">
-					<span class="menu"> </span>
-					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Dr. Oscar</a></li>
-						<li><a href="services.html">Specialties</a></li>
-						<li><a href="blog.html">Appointments</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<span class="menu"> </span>
+				<ul class="nav navbar-nav">
+					<li class="navLinks" class="active"><a href="index.html">Home</a></li>
+					<li class="navLinks"><a href="about.html">About Dr. Oscar</a></li>
+					<li class="navLinks"><a href="services.html">Specialties</a></li>
+					<li class="navLinks"><a href="blog.html">Appointments</a></li>
+					<li class="navLinks"><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+
 				<!-- script-for-nav -->
 				<script>
 					$(document).ready(function(){
@@ -48,6 +58,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							$(".top-nav ul").slideToggle(300);
 						});
 					});
+
 				</script>
 			</div>
 		</div>
